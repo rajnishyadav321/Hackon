@@ -1,6 +1,6 @@
 package ec.hackon.services;
 
-import javax.servlet.http.HttpServletRequest;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.OPTIONS;
@@ -56,7 +56,7 @@ public class LoginService {
 	@Path("/me")
 	@Produces("application/json")
 	public Response getMe(){
-		return Response.ok().entity(Helper.JSONSuccess()).cookie(new NewCookie("password", "chutiya")).build();
+		return Response.ok().entity(Helper.JSONSuccess()).cookie(new NewCookie("password", "assassin")).build();
 	}
 
 	}
