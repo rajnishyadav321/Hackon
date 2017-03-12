@@ -1,5 +1,11 @@
 package ec.hackon.services;
 
+<<<<<<< HEAD
+=======
+import java.util.List;
+
+
+>>>>>>> 69040291a630378e2ee5e116f1f0061695bc03c9
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
