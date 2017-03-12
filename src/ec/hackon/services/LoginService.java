@@ -56,7 +56,7 @@ public class LoginService {
 	@Path("/me")
 	@Produces("application/json")
 	public Response getMe(){
-		return Response.ok().entity(Helper.JSONSuccess()).cookie(new NewCookie("password", "chutiya")).build();
+		return Response.ok().entity(Helper.JSONSuccess()).cookie(new NewCookie("password", "assassin")).build();
 	}
 
 	}
